@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import team from './dt.jpg';
 import './App.css';
@@ -23,5 +24,17 @@ function App() {
     </div>
   );
 }
+=======
+import express from "express";
 
-export default App;
+const app = express()
+const port = 5500
+>>>>>>> 035405fe0f9d79e86e8bf34c2c9a594208406a8c
+
+app.get("/",(req, res)=>{
+    res.send("Helloword")
+})
+
+app.listen(port, () => {
+    console.log('Server connect on localhost:${port}')
+})
