@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import team from './dt.jpg';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <div><img src={team} alt="team" /></div>
     </div>
   );
 }
